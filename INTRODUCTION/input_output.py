@@ -12,9 +12,3 @@ print("The sum is:", sum_result)
 favorite_color = input("What is your favorite color?: ")
 print("Wow!", favorite_color, "is a beautiful color!")
 
-# Example 4: Checking if a number is even or odd
-number = int(input("Enter a number to check if it's even or odd: "))
-if number % 2 == 0:
-	print(number, "is even.")
-else:
-	print(number, "is odd.")

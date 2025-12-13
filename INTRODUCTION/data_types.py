@@ -25,11 +25,5 @@ print(greeting.upper())
 is_adult = Age >= 18
 print("Is adult:", is_adult)
 
-# List example
-colors = ["red", "green", "blue"]
-print("First color:", colors[0])
 
-# Dictionary example
-person = {"name": Name, "age": Age, "height": Height}
-print("Person dictionary:", person)
 
