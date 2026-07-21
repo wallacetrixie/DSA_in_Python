@@ -1,9 +1,7 @@
-#prints prime numbers
-for num in range(0, 20):
-	is_prime = True
-	for i in range(2, int(num ** 0.5) + 1):
-		if num % i == 0:
-			is_prime = False
-			break
-	if is_prime:
-		print(num)
+def check_even_odd():
+    for i in range(20):
+        if i % 2 == 0:
+            print("Even Number:", i)
+        else:
+            print("Odd Number:", i)
+check_even_odd()
