@@ -1,3 +1,4 @@
+#reversing an array without slicing
 marks=[34,87,87,56,33,23,56,76,98,2,87,90,45,73,87]
 left=0
 right=len(marks)-1
